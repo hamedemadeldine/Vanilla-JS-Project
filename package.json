@@ -3,9 +3,24 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "gh": "^2.8.6",
+    "gh-pages": "^2.2.0"
+  },
+  "devDependencies": {},
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "hamed emad",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamedemadeldine/Vanilla-JS-Project.git"
+  },
+  "author": "Hamed Emad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamedemadeldine/Vanilla-JS-Project/issues"
+  },
+  "homepage": "https://github.com/hamedemadeldine/Vanilla-JS-Project#readme"
 }
